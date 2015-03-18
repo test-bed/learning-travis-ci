@@ -4,3 +4,4 @@ jdk:
 after_success:
   - printf "after_success! learning-travis-ci project"
   - ls -la ./target
+  - curl http://www.naver.com
