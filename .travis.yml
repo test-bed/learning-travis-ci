@@ -5,3 +5,10 @@ after_success:
   - printf "after_success! learning-travis-ci project"
   - ls -la ./target
   - curl http://www.naver.com
+deploy:
+  provider: openshift
+  user: junyoung.plum@gmail.com
+  token: 89c334b080e534357b022cf36ad3c348229ae6cca74aaa09e478f8867702508e
+  domain: nnoco
+  app: travistest
+  
