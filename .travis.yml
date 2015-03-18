@@ -1,1 +1,6 @@
 language: java
+jdk:
+  - oraclejdk7
+after_success:
+  - printf "after_success! learning-travis-ci project"
+  - ls -la ./target
