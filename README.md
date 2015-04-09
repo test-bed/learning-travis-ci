@@ -2,3 +2,5 @@
 [![Coverage](https://coveralls.io/repos/forget-me/learning-travis-ci/badge.svg)](https://coveralls.io/repos/forget-me/learning-travis-ci)
 
 for learning travis-ci
+
+How to works pull request on Travis-ci?
